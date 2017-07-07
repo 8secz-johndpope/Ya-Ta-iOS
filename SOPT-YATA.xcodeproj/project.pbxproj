@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A994961F08CB2E00D5C045 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A994951F08CB2E00D5C045 /* SettingViewController.swift */; };
+		3C0774131F092EAF00F6D6F7 /* OwnerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0774121F092EAF00F6D6F7 /* OwnerListViewController.swift */; };
+		3C0774151F093BBF00F6D6F7 /* DriverListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0774141F093BBF00F6D6F7 /* DriverListViewController.swift */; };
+		3C0774171F093C9500F6D6F7 /* OwnerMatchingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0774161F093C9500F6D6F7 /* OwnerMatchingDetailViewController.swift */; };
+		3C0997AE1F0CD9FE003FF3E2 /* DriverSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0997AD1F0CD9FD003FF3E2 /* DriverSearchViewController.swift */; };
+		3C0997B11F0CE5F5003FF3E2 /* DriverRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0997AF1F0CE5F5003FF3E2 /* DriverRegisterViewController.swift */; };
+		3C0997B21F0CE5F5003FF3E2 /* DriverRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0997B01F0CE5F5003FF3E2 /* DriverRegisterViewController.xib */; };
+		3C0997B41F0D17BC003FF3E2 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0997B31F0D17BC003FF3E2 /* UIExtension.swift */; };
+		3C0997B61F0D1F26003FF3E2 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0997B51F0D1F26003FF3E2 /* CustomTextField.swift */; };
+		3C17EDC01F0EA94300BDC016 /* OwnerMatchingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17EDBF1F0EA94300BDC016 /* OwnerMatchingTableViewCell.swift */; };
+		3C17EDC21F0EACB900BDC016 /* DriverDetailInformationResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17EDC11F0EACB900BDC016 /* DriverDetailInformationResultData.swift */; };
+		3C17EDC61F0EB20C00BDC016 /* OwnerMatchingDetailSecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17EDC51F0EB20C00BDC016 /* OwnerMatchingDetailSecondTableViewCell.swift */; };
+		3C17EDC81F0EB29D00BDC016 /* OwnerMatchingDetailThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17EDC71F0EB29D00BDC016 /* OwnerMatchingDetailThirdTableViewCell.swift */; };
+		3C2C694B1F0777B70001F348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C694A1F0777B70001F348 /* AppDelegate.swift */; };
+		3C2C69501F0777B70001F348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2C694E1F0777B70001F348 /* Main.storyboard */; };
+		3C2C69521F0777B70001F348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2C69511F0777B70001F348 /* Assets.xcassets */; };
+		3C2C69551F0777B70001F348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2C69531F0777B70001F348 /* LaunchScreen.storyboard */; };
+		3C2C695D1F0779C60001F348 /* MainLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C695C1F0779C60001F348 /* MainLoginViewController.swift */; };
+		3C2C695F1F077A720001F348 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C695E1F077A720001F348 /* LoginViewController.swift */; };
+		3C2C69611F077AD20001F348 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C69601F077AD20001F348 /* JoinViewController.swift */; };
+		3C2C69641F077B6F0001F348 /* MainPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2C69631F077B6F0001F348 /* MainPage.storyboard */; };
+		3C2C69661F077BC70001F348 /* Owner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2C69651F077BC70001F348 /* Owner.storyboard */; };
+		3C2C69681F077BD50001F348 /* Driver.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2C69671F077BD50001F348 /* Driver.storyboard */; };
+		3C2C696A1F078F590001F348 /* TwoTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C69691F078F590001F348 /* TwoTypeTableViewCell.swift */; };
+		3C2C696C1F078F6A0001F348 /* OneTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C696B1F078F6A0001F348 /* OneTypeTableViewCell.swift */; };
+		3C2C696E1F07968A0001F348 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C696D1F07968A0001F348 /* Network.swift */; };
+		3C2C69701F07977D0001F348 /* JoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C696F1F07977D0001F348 /* JoinData.swift */; };
+		3C2C69721F0799E50001F348 /* JoinResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C69711F0799E50001F348 /* JoinResultData.swift */; };
+		3C48D2181F0FD4DE009C5560 /* OwnerMatchingCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C48D2171F0FD4DE009C5560 /* OwnerMatchingCompleteViewController.swift */; };
+		3C4B1BC91F0A1D43005AAB2B /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B1BC81F0A1D43005AAB2B /* MainPageViewController.swift */; };
+		3C4B1BCB1F0A1EE3005AAB2B /* ProfileResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B1BCA1F0A1EE3005AAB2B /* ProfileResultData.swift */; };
+		3C4B1BD21F0A5B34005AAB2B /* ProfileFirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B1BD11F0A5B34005AAB2B /* ProfileFirstTableViewCell.swift */; };
+		3C4B1BD41F0A5B4E005AAB2B /* ProfileSecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B1BD31F0A5B4E005AAB2B /* ProfileSecondTableViewCell.swift */; };
+		3C4B1BD61F0A6284005AAB2B /* DriverShortDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B1BD51F0A6284005AAB2B /* DriverShortDetailView.swift */; };
+		3C4B1BD81F0A6BD7005AAB2B /* OwnerSearchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B1BD71F0A6BD7005AAB2B /* OwnerSearchDetailViewController.swift */; };
+		3C5770D51F0A943A00CC5100 /* OwnerRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5770D31F0A943A00CC5100 /* OwnerRegisterViewController.swift */; };
+		3C5770D61F0A943A00CC5100 /* OwnerRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C5770D41F0A943A00CC5100 /* OwnerRegisterViewController.xib */; };
+		3C5770D91F0A9A8400CC5100 /* OwnerInsureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5770D71F0A9A8400CC5100 /* OwnerInsureViewController.swift */; };
+		3C5770DA1F0A9A8400CC5100 /* OwnerInsureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C5770D81F0A9A8400CC5100 /* OwnerInsureViewController.xib */; };
+		3C63CEBB1F0FDFD8002C34ED /* OwnerMatchingDetailFirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63CEBA1F0FDFD8002C34ED /* OwnerMatchingDetailFirstTableViewCell.swift */; };
+		3CB09C111F0BEFB5004F25FF /* ProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB09C101F0BEFB5004F25FF /* ProfileDetailViewController.swift */; };
+		3CC611051F0E903D005F88BF /* OwnerListResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC611041F0E903D005F88BF /* OwnerListResultData.swift */; };
+		3CCC1D2C1F07AA95002F2261 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CCC1D2B1F07AA95002F2261 /* GoogleService-Info.plist */; };
+		3CCC1D2E1F07AC3C002F2261 /* LoginResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC1D2D1F07AC3C002F2261 /* LoginResultData.swift */; };
+		3CDCB0131F07B37E00FE3E0D /* OwnerSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCB0121F07B37E00FE3E0D /* OwnerSearchViewController.swift */; };
+		3CDCB01B1F09216200FE3E0D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCB01A1F09216200FE3E0D /* ProfileViewController.swift */; };
+		3CDCB01D1F09246A00FE3E0D /* MarketingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCB01C1F09246A00FE3E0D /* MarketingTableViewCell.swift */; };
+		FF0BE3AE144437B874681522 /* Pods_sopt_yata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F18655E938EA89B8BCF1070 /* Pods_sopt_yata.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09A994951F08CB2E00D5C045 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = "SOPT-YATA/Owner/SettingViewController.swift"; sourceTree = SOURCE_ROOT; };
+		3C0774121F092EAF00F6D6F7 /* OwnerListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerListViewController.swift; path = Owner/OwnerListViewController.swift; sourceTree = "<group>"; };
+		3C0774141F093BBF00F6D6F7 /* DriverListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverListViewController.swift; path = Driver/DriverListViewController.swift; sourceTree = "<group>"; };
+		3C0774161F093C9500F6D6F7 /* OwnerMatchingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerMatchingDetailViewController.swift; path = Owner/OwnerMatchingDetailViewController.swift; sourceTree = "<group>"; };
+		3C0997AD1F0CD9FD003FF3E2 /* DriverSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverSearchViewController.swift; path = "SOPT-YATA/Driver/DriverSearchViewController.swift"; sourceTree = SOURCE_ROOT; };
+		3C0997AF1F0CE5F5003FF3E2 /* DriverRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverRegisterViewController.swift; path = "SOPT-YATA/Driver/DriverRegisterViewController.swift"; sourceTree = SOURCE_ROOT; };
+		3C0997B01F0CE5F5003FF3E2 /* DriverRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DriverRegisterViewController.xib; path = "SOPT-YATA/Driver/DriverRegisterViewController.xib"; sourceTree = SOURCE_ROOT; };
+		3C0997B31F0D17BC003FF3E2 /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIExtension.swift; path = "SOPT-YATA/UIExtension.swift"; sourceTree = SOURCE_ROOT; };
+		3C0997B51F0D1F26003FF3E2 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		3C17EDBF1F0EA94300BDC016 /* OwnerMatchingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerMatchingTableViewCell.swift; path = "SOPT-YATA/Owner/OwnerMatchingTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		3C17EDC11F0EACB900BDC016 /* DriverDetailInformationResultData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverDetailInformationResultData.swift; path = "SOPT-YATA/DriverDetailInformationResultData.swift"; sourceTree = SOURCE_ROOT; };
+		3C17EDC51F0EB20C00BDC016 /* OwnerMatchingDetailSecondTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerMatchingDetailSecondTableViewCell.swift; path = "SOPT-YATA/Owner/OwnerMatchingDetailSecondTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		3C17EDC71F0EB29D00BDC016 /* OwnerMatchingDetailThirdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerMatchingDetailThirdTableViewCell.swift; path = "SOPT-YATA/Owner/OwnerMatchingDetailThirdTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		3C2C69471F0777B70001F348 /* sopt-yata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sopt-yata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2C694A1F0777B70001F348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C2C694F1F0777B70001F348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C2C69511F0777B70001F348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C2C69541F0777B70001F348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C2C69561F0777B70001F348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2C695C1F0779C60001F348 /* MainLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainLoginViewController.swift; path = Login/MainLoginViewController.swift; sourceTree = "<group>"; };
+		3C2C695E1F077A720001F348 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Login/LoginViewController.swift; sourceTree = "<group>"; };
+		3C2C69601F077AD20001F348 /* JoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JoinViewController.swift; path = Login/JoinViewController.swift; sourceTree = "<group>"; };
+		3C2C69631F077B6F0001F348 /* MainPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainPage.storyboard; sourceTree = "<group>"; };
+		3C2C69651F077BC70001F348 /* Owner.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Owner.storyboard; path = Owner/Owner.storyboard; sourceTree = "<group>"; };
+		3C2C69671F077BD50001F348 /* Driver.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Driver.storyboard; path = Driver/Driver.storyboard; sourceTree = "<group>"; };
+		3C2C69691F078F590001F348 /* TwoTypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwoTypeTableViewCell.swift; path = Login/TwoTypeTableViewCell.swift; sourceTree = "<group>"; };
+		3C2C696B1F078F6A0001F348 /* OneTypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OneTypeTableViewCell.swift; path = Login/OneTypeTableViewCell.swift; sourceTree = "<group>"; };
+		3C2C696D1F07968A0001F348 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Network.swift; path = Util/Network.swift; sourceTree = "<group>"; };
+		3C2C696F1F07977D0001F348 /* JoinData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JoinData.swift; path = Login/JoinData.swift; sourceTree = "<group>"; };
+		3C2C69711F0799E50001F348 /* JoinResultData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JoinResultData.swift; path = Login/JoinResultData.swift; sourceTree = "<group>"; };
+		3C48D2171F0FD4DE009C5560 /* OwnerMatchingCompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerMatchingCompleteViewController.swift; path = "SOPT-YATA/Owner/OwnerMatchingCompleteViewController.swift"; sourceTree = SOURCE_ROOT; };
+		3C4B1BC81F0A1D43005AAB2B /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		3C4B1BCA1F0A1EE3005AAB2B /* ProfileResultData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileResultData.swift; sourceTree = "<group>"; };
+		3C4B1BD11F0A5B34005AAB2B /* ProfileFirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileFirstTableViewCell.swift; sourceTree = "<group>"; };
+		3C4B1BD31F0A5B4E005AAB2B /* ProfileSecondTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSecondTableViewCell.swift; sourceTree = "<group>"; };
+		3C4B1BD51F0A6284005AAB2B /* DriverShortDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverShortDetailView.swift; path = Owner/DriverShortDetailView.swift; sourceTree = "<group>"; };
+		3C4B1BD71F0A6BD7005AAB2B /* OwnerSearchDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerSearchDetailViewController.swift; path = Owner/OwnerSearchDetailViewController.swift; sourceTree = "<group>"; };
+		3C5770D31F0A943A00CC5100 /* OwnerRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerRegisterViewController.swift; path = "SOPT-YATA/Owner/OwnerRegisterViewController.swift"; sourceTree = SOURCE_ROOT; };
+		3C5770D41F0A943A00CC5100 /* OwnerRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OwnerRegisterViewController.xib; path = "SOPT-YATA/Owner/OwnerRegisterViewController.xib"; sourceTree = SOURCE_ROOT; };
+		3C5770D71F0A9A8400CC5100 /* OwnerInsureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerInsureViewController.swift; path = "SOPT-YATA/Owner/OwnerInsureViewController.swift"; sourceTree = SOURCE_ROOT; };
+		3C5770D81F0A9A8400CC5100 /* OwnerInsureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OwnerInsureViewController.xib; path = "SOPT-YATA/Owner/OwnerInsureViewController.xib"; sourceTree = SOURCE_ROOT; };
+		3C63CEBA1F0FDFD8002C34ED /* OwnerMatchingDetailFirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerMatchingDetailFirstTableViewCell.swift; path = "SOPT-YATA/Owner/OwnerMatchingDetailFirstTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		3CB09C101F0BEFB5004F25FF /* ProfileDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileDetailViewController.swift; path = "SOPT-YATA/ProfileDetailViewController.swift"; sourceTree = SOURCE_ROOT; };
+		3CC611041F0E903D005F88BF /* OwnerListResultData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerListResultData.swift; path = "SOPT-YATA/OwnerListResultData.swift"; sourceTree = SOURCE_ROOT; };
+		3CCC1D2B1F07AA95002F2261 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CCC1D2D1F07AC3C002F2261 /* LoginResultData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginResultData.swift; path = Login/LoginResultData.swift; sourceTree = "<group>"; };
+		3CDCB0121F07B37E00FE3E0D /* OwnerSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerSearchViewController.swift; path = Owner/OwnerSearchViewController.swift; sourceTree = "<group>"; };
+		3CDCB01A1F09216200FE3E0D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3CDCB01C1F09246A00FE3E0D /* MarketingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketingTableViewCell.swift; sourceTree = "<group>"; };
+		9F18655E938EA89B8BCF1070 /* Pods_sopt_yata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sopt_yata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AC885E0D9AF4A87D354E63 /* Pods-sopt-yata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sopt-yata.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sopt-yata/Pods-sopt-yata.debug.xcconfig"; sourceTree = "<group>"; };
+		DD5C2A5E2B04EA00DB6D8C82 /* Pods-sopt-yata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sopt-yata.release.xcconfig"; path = "Pods/Target Support Files/Pods-sopt-yata/Pods-sopt-yata.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C2C69441F0777B70001F348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0BE3AE144437B874681522 /* Pods_sopt_yata.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C17EDC91F0EB2A500BDC016 /* Matching Detail */ = {
+			isa = PBXGroup;
+			children = (
+				3C0774161F093C9500F6D6F7 /* OwnerMatchingDetailViewController.swift */,
+				3C63CEBA1F0FDFD8002C34ED /* OwnerMatchingDetailFirstTableViewCell.swift */,
+				3C17EDC51F0EB20C00BDC016 /* OwnerMatchingDetailSecondTableViewCell.swift */,
+				3C17EDC71F0EB29D00BDC016 /* OwnerMatchingDetailThirdTableViewCell.swift */,
+			);
+			name = "Matching Detail";
+			sourceTree = "<group>";
+		};
+		3C2C693E1F0777B70001F348 = {
+			isa = PBXGroup;
+			children = (
+				3C2C69491F0777B70001F348 /* sopt-yata */,
+				3C2C69481F0777B70001F348 /* Products */,
+				9FA5A1437BD581608D717292 /* Pods */,
+				E0D54ED87AEBBE9F0A4D99A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C2C69481F0777B70001F348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C2C69471F0777B70001F348 /* sopt-yata.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C2C69491F0777B70001F348 /* sopt-yata */ = {
+			isa = PBXGroup;
+			children = (
+				3C2C694A1F0777B70001F348 /* AppDelegate.swift */,
+				3C2C694E1F0777B70001F348 /* Main.storyboard */,
+				3CDCB0141F07C06100FE3E0D /* Owner */,
+				3CDCB0151F07C06900FE3E0D /* Driver */,
+				3C0997B31F0D17BC003FF3E2 /* UIExtension.swift */,
+				09A994951F08CB2E00D5C045 /* SettingViewController.swift */,
+				3CDCB01C1F09246A00FE3E0D /* MarketingTableViewCell.swift */,
+				3CDCB01A1F09216200FE3E0D /* ProfileViewController.swift */,
+				3C4B1BD11F0A5B34005AAB2B /* ProfileFirstTableViewCell.swift */,
+				3CB09C101F0BEFB5004F25FF /* ProfileDetailViewController.swift */,
+				3C4B1BD31F0A5B4E005AAB2B /* ProfileSecondTableViewCell.swift */,
+				3C4B1BCC1F0A1EE8005AAB2B /* Network */,
+				3C2C69621F077B3E0001F348 /* Login */,
+				3C2C69511F0777B70001F348 /* Assets.xcassets */,
+				3C2C69631F077B6F0001F348 /* MainPage.storyboard */,
+				3C4B1BC81F0A1D43005AAB2B /* MainPageViewController.swift */,
+				3C2C69531F0777B70001F348 /* LaunchScreen.storyboard */,
+				3CCC1D2B1F07AA95002F2261 /* GoogleService-Info.plist */,
+				3C2C69561F0777B70001F348 /* Info.plist */,
+			);
+			path = "sopt-yata";
+			sourceTree = "<group>";
+		};
+		3C2C69621F077B3E0001F348 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3C2C69601F077AD20001F348 /* JoinViewController.swift */,
+				3C2C696B1F078F6A0001F348 /* OneTypeTableViewCell.swift */,
+				3C2C69691F078F590001F348 /* TwoTypeTableViewCell.swift */,
+				3C2C695E1F077A720001F348 /* LoginViewController.swift */,
+				3C2C696F1F07977D0001F348 /* JoinData.swift */,
+				3C2C695C1F0779C60001F348 /* MainLoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		3C4B1BCC1F0A1EE8005AAB2B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3C2C696D1F07968A0001F348 /* Network.swift */,
+				3CC611041F0E903D005F88BF /* OwnerListResultData.swift */,
+				3C17EDC11F0EACB900BDC016 /* DriverDetailInformationResultData.swift */,
+				3C2C69711F0799E50001F348 /* JoinResultData.swift */,
+				3CCC1D2D1F07AC3C002F2261 /* LoginResultData.swift */,
+				3C4B1BCA1F0A1EE3005AAB2B /* ProfileResultData.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		3CDCB0141F07C06100FE3E0D /* Owner */ = {
+			isa = PBXGroup;
+			children = (
+				3C2C69651F077BC70001F348 /* Owner.storyboard */,
+				3CDCB0121F07B37E00FE3E0D /* OwnerSearchViewController.swift */,
+				3C4B1BD71F0A6BD7005AAB2B /* OwnerSearchDetailViewController.swift */,
+				3C48D2171F0FD4DE009C5560 /* OwnerMatchingCompleteViewController.swift */,
+				3C17EDC91F0EB2A500BDC016 /* Matching Detail */,
+				3C0774121F092EAF00F6D6F7 /* OwnerListViewController.swift */,
+				3C17EDBF1F0EA94300BDC016 /* OwnerMatchingTableViewCell.swift */,
+				3C4B1BD51F0A6284005AAB2B /* DriverShortDetailView.swift */,
+				3C5770D31F0A943A00CC5100 /* OwnerRegisterViewController.swift */,
+				3C5770D41F0A943A00CC5100 /* OwnerRegisterViewController.xib */,
+				3C5770D71F0A9A8400CC5100 /* OwnerInsureViewController.swift */,
+				3C5770D81F0A9A8400CC5100 /* OwnerInsureViewController.xib */,
+			);
+			name = Owner;
+			sourceTree = "<group>";
+		};
+		3CDCB0151F07C06900FE3E0D /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				3C2C69671F077BD50001F348 /* Driver.storyboard */,
+				3C0997AD1F0CD9FD003FF3E2 /* DriverSearchViewController.swift */,
+				3C0997B51F0D1F26003FF3E2 /* CustomTextField.swift */,
+				3C0774141F093BBF00F6D6F7 /* DriverListViewController.swift */,
+				3C0997AF1F0CE5F5003FF3E2 /* DriverRegisterViewController.swift */,
+				3C0997B01F0CE5F5003FF3E2 /* DriverRegisterViewController.xib */,
+			);
+			name = Driver;
+			sourceTree = "<group>";
+		};
+		9FA5A1437BD581608D717292 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5AC885E0D9AF4A87D354E63 /* Pods-sopt-yata.debug.xcconfig */,
+				DD5C2A5E2B04EA00DB6D8C82 /* Pods-sopt-yata.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0D54ED87AEBBE9F0A4D99A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F18655E938EA89B8BCF1070 /* Pods_sopt_yata.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C2C69461F0777B70001F348 /* sopt-yata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2C69591F0777B70001F348 /* Build configuration list for PBXNativeTarget "sopt-yata" */;
+			buildPhases = (
+				ED51D0222419668209F41E7C /* [CP] Check Pods Manifest.lock */,
+				3C2C69431F0777B70001F348 /* Sources */,
+				3C2C69441F0777B70001F348 /* Frameworks */,
+				3C2C69451F0777B70001F348 /* Resources */,
+				023431C0EE79B672E1442B9C /* [CP] Embed Pods Frameworks */,
+				8438D4FE01F05A93A2F31118 /* [CP] Copy Pods Resources */,
+				3CCC1D2A1F07AA52002F2261 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sopt-yata";
+			productName = "sopt-yata";
+			productReference = 3C2C69471F0777B70001F348 /* sopt-yata.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C2C693F1F0777B70001F348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YATA;
+				TargetAttributes = {
+					3C2C69461F0777B70001F348 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UQZ9Y78ACS;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3C2C69421F0777B70001F348 /* Build configuration list for PBXProject "sopt-yata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C2C693E1F0777B70001F348;
+			productRefGroup = 3C2C69481F0777B70001F348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C2C69461F0777B70001F348 /* sopt-yata */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C2C69451F0777B70001F348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2C69641F077B6F0001F348 /* MainPage.storyboard in Resources */,
+				3C2C69551F0777B70001F348 /* LaunchScreen.storyboard in Resources */,
+				3C2C69521F0777B70001F348 /* Assets.xcassets in Resources */,
+				3C2C69501F0777B70001F348 /* Main.storyboard in Resources */,
+				3C2C69681F077BD50001F348 /* Driver.storyboard in Resources */,
+				3C2C69661F077BC70001F348 /* Owner.storyboard in Resources */,
+				3C0997B21F0CE5F5003FF3E2 /* DriverRegisterViewController.xib in Resources */,
+				3CCC1D2C1F07AA95002F2261 /* GoogleService-Info.plist in Resources */,
+				3C5770DA1F0A9A8400CC5100 /* OwnerInsureViewController.xib in Resources */,
+				3C5770D61F0A943A00CC5100 /* OwnerRegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		023431C0EE79B672E1442B9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sopt-yata/Pods-sopt-yata-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CCC1D2A1F07AA52002F2261 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 3ff0345c02ae9833e8c4b8c83e37d0f3f79be0c4 76e7f9031c00f5e0076ce52dd8e3b2196d8645aa39a1e194bb6c92b59432abfc";
+		};
+		8438D4FE01F05A93A2F31118 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sopt-yata/Pods-sopt-yata-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED51D0222419668209F41E7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C2C69431F0777B70001F348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0774151F093BBF00F6D6F7 /* DriverListViewController.swift in Sources */,
+				3C17EDC81F0EB29D00BDC016 /* OwnerMatchingDetailThirdTableViewCell.swift in Sources */,
+				3C5770D51F0A943A00CC5100 /* OwnerRegisterViewController.swift in Sources */,
+				3C2C696C1F078F6A0001F348 /* OneTypeTableViewCell.swift in Sources */,
+				3C2C695F1F077A720001F348 /* LoginViewController.swift in Sources */,
+				3C4B1BD41F0A5B4E005AAB2B /* ProfileSecondTableViewCell.swift in Sources */,
+				3C0774131F092EAF00F6D6F7 /* OwnerListViewController.swift in Sources */,
+				3C2C694B1F0777B70001F348 /* AppDelegate.swift in Sources */,
+				3C0774171F093C9500F6D6F7 /* OwnerMatchingDetailViewController.swift in Sources */,
+				3C17EDC01F0EA94300BDC016 /* OwnerMatchingTableViewCell.swift in Sources */,
+				3C48D2181F0FD4DE009C5560 /* OwnerMatchingCompleteViewController.swift in Sources */,
+				3C4B1BD21F0A5B34005AAB2B /* ProfileFirstTableViewCell.swift in Sources */,
+				3C2C69701F07977D0001F348 /* JoinData.swift in Sources */,
+				3C63CEBB1F0FDFD8002C34ED /* OwnerMatchingDetailFirstTableViewCell.swift in Sources */,
+				3CDCB0131F07B37E00FE3E0D /* OwnerSearchViewController.swift in Sources */,
+				3C4B1BCB1F0A1EE3005AAB2B /* ProfileResultData.swift in Sources */,
+				3C0997B41F0D17BC003FF3E2 /* UIExtension.swift in Sources */,
+				3C2C696A1F078F590001F348 /* TwoTypeTableViewCell.swift in Sources */,
+				3C0997B61F0D1F26003FF3E2 /* CustomTextField.swift in Sources */,
+				3C2C69611F077AD20001F348 /* JoinViewController.swift in Sources */,
+				3CCC1D2E1F07AC3C002F2261 /* LoginResultData.swift in Sources */,
+				3C4B1BD61F0A6284005AAB2B /* DriverShortDetailView.swift in Sources */,
+				3C17EDC61F0EB20C00BDC016 /* OwnerMatchingDetailSecondTableViewCell.swift in Sources */,
+				3C2C696E1F07968A0001F348 /* Network.swift in Sources */,
+				3CB09C111F0BEFB5004F25FF /* ProfileDetailViewController.swift in Sources */,
+				3C5770D91F0A9A8400CC5100 /* OwnerInsureViewController.swift in Sources */,
+				3C2C69721F0799E50001F348 /* JoinResultData.swift in Sources */,
+				3CDCB01D1F09246A00FE3E0D /* MarketingTableViewCell.swift in Sources */,
+				3C0997B11F0CE5F5003FF3E2 /* DriverRegisterViewController.swift in Sources */,
+				3C0997AE1F0CD9FE003FF3E2 /* DriverSearchViewController.swift in Sources */,
+				3CC611051F0E903D005F88BF /* OwnerListResultData.swift in Sources */,
+				3C4B1BD81F0A6BD7005AAB2B /* OwnerSearchDetailViewController.swift in Sources */,
+				3CDCB01B1F09216200FE3E0D /* ProfileViewController.swift in Sources */,
+				3C2C695D1F0779C60001F348 /* MainLoginViewController.swift in Sources */,
+				3C4B1BC91F0A1D43005AAB2B /* MainPageViewController.swift in Sources */,
+				3C17EDC21F0EACB900BDC016 /* DriverDetailInformationResultData.swift in Sources */,
+				09A994961F08CB2E00D5C045 /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C2C694E1F0777B70001F348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2C694F1F0777B70001F348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C2C69531F0777B70001F348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2C69541F0777B70001F348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C2C69571F0777B70001F348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C2C69581F0777B70001F348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C2C695A1F0777B70001F348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AC885E0D9AF4A87D354E63 /* Pods-sopt-yata.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UQZ9Y78ACS;
+				INFOPLIST_FILE = "sopt-yata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sopt.sopt-yata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "996c44ca-06e4-404b-b599-e3df747dee52";
+				PROVISIONING_PROFILE_SPECIFIER = "yata - dev";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C2C695B1F0777B70001F348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5C2A5E2B04EA00DB6D8C82 /* Pods-sopt-yata.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UQZ9Y78ACS;
+				INFOPLIST_FILE = "sopt-yata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sopt.sopt-yata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "996c44ca-06e4-404b-b599-e3df747dee52";
+				PROVISIONING_PROFILE_SPECIFIER = "yata - dev";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C2C69421F0777B70001F348 /* Build configuration list for PBXProject "sopt-yata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2C69571F0777B70001F348 /* Debug */,
+				3C2C69581F0777B70001F348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2C69591F0777B70001F348 /* Build configuration list for PBXNativeTarget "sopt-yata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2C695A1F0777B70001F348 /* Debug */,
+				3C2C695B1F0777B70001F348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C2C693F1F0777B70001F348 /* Project object */;
+}

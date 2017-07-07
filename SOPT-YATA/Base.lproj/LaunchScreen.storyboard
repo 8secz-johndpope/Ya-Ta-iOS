@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5if-oI-nSl">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="L97-ks-C30">
+            <objects>
+                <viewController id="5if-oI-nSl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="euK-Ru-uHU"/>
+                        <viewControllerLayoutGuide type="bottom" id="94z-Fw-o3N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XMF-BK-rPa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_background" translatesAutoresizingMaskIntoConstraints="NO" id="39P-LY-MV8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashpage_logo" translatesAutoresizingMaskIntoConstraints="NO" id="UyR-5r-i8Z">
+                                <rect key="frame" x="141" y="237" width="93" height="96"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cor_yata" translatesAutoresizingMaskIntoConstraints="NO" id="o1i-z7-pBY">
+                                <rect key="frame" x="157" y="638" width="61" height="19"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="94z-Fw-o3N" firstAttribute="top" secondItem="o1i-z7-pBY" secondAttribute="bottom" constant="10" id="1Ff-5I-Yyf"/>
+                            <constraint firstItem="39P-LY-MV8" firstAttribute="top" secondItem="XMF-BK-rPa" secondAttribute="top" id="LoG-G8-s5e"/>
+                            <constraint firstItem="o1i-z7-pBY" firstAttribute="centerX" secondItem="XMF-BK-rPa" secondAttribute="centerX" id="MkD-j9-1gh"/>
+                            <constraint firstItem="39P-LY-MV8" firstAttribute="leading" secondItem="XMF-BK-rPa" secondAttribute="leading" id="NzH-L1-A5r"/>
+                            <constraint firstItem="UyR-5r-i8Z" firstAttribute="centerX" secondItem="XMF-BK-rPa" secondAttribute="centerX" id="SQ8-24-4vn"/>
+                            <constraint firstItem="o1i-z7-pBY" firstAttribute="top" secondItem="UyR-5r-i8Z" secondAttribute="bottom" constant="305" id="XoX-Wo-cSV"/>
+                            <constraint firstItem="94z-Fw-o3N" firstAttribute="top" secondItem="39P-LY-MV8" secondAttribute="bottom" id="epR-Lh-PcK"/>
+                            <constraint firstAttribute="trailing" secondItem="39P-LY-MV8" secondAttribute="trailing" id="f7Y-hF-Vuk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fhq-wq-bbi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cor_yata" width="61" height="19"/>
+        <image name="splash_background" width="375" height="667"/>
+        <image name="splashpage_logo" width="93" height="96"/>
+    </resources>
+</document>

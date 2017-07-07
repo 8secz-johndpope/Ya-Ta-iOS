@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iSJ-pu-wK9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MAINPAGE-->
+        <scene sceneID="RDR-H2-4Co">
+            <objects>
+                <viewController id="iSJ-pu-wK9" customClass="MainPageViewController" customModule="sopt_yata" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="W8O-5Q-RNh"/>
+                        <viewControllerLayoutGuide type="bottom" id="iC8-iT-ZVb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="860-Xd-764">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_background" translatesAutoresizingMaskIntoConstraints="NO" id="1dW-NF-115">
+                                <rect key="frame" x="0.0" y="-16" width="375" height="700"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="700" id="JXl-6G-vfz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select" translatesAutoresizingMaskIntoConstraints="NO" id="ljL-xe-0P8">
+                                <rect key="frame" x="126" y="90" width="122" height="27"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainpage_justride" translatesAutoresizingMaskIntoConstraints="NO" id="IOZ-yg-WuQ">
+                                <rect key="frame" x="125" y="628" width="124" height="19"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CsI-4y-oOg">
+                                <rect key="frame" x="33" y="187" width="215" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="148" id="JhL-B9-AhO"/>
+                                    <constraint firstAttribute="width" constant="215" id="xOb-b1-Dvm"/>
+                                </constraints>
+                                <state key="normal" image="mainage_owner"/>
+                                <connections>
+                                    <segue destination="DGU-84-ODS" kind="show" id="rMm-vE-MIR">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hal-j8-yMV">
+                                <rect key="frame" x="118" y="395" width="215" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="148" id="0jX-el-mfv"/>
+                                    <constraint firstAttribute="width" constant="215" id="kIw-6J-b9G"/>
+                                </constraints>
+                                <state key="normal" title="운전자" image="mainage_driver"/>
+                                <connections>
+                                    <segue destination="k5u-Ja-cm1" kind="show" id="x4m-AC-Z4H">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1dW-NF-115" firstAttribute="centerX" secondItem="860-Xd-764" secondAttribute="centerX" id="2Oa-1W-aGx"/>
+                            <constraint firstItem="1dW-NF-115" firstAttribute="top" secondItem="860-Xd-764" secondAttribute="topMargin" constant="-16" id="2y0-Dv-pSl"/>
+                            <constraint firstItem="iC8-iT-ZVb" firstAttribute="top" secondItem="IOZ-yg-WuQ" secondAttribute="bottom" constant="20" id="3GE-SL-APP"/>
+                            <constraint firstItem="IOZ-yg-WuQ" firstAttribute="centerX" secondItem="860-Xd-764" secondAttribute="centerX" id="5wg-JQ-QoY"/>
+                            <constraint firstItem="hal-j8-yMV" firstAttribute="top" secondItem="CsI-4y-oOg" secondAttribute="bottom" constant="60" id="6FP-UE-7G7"/>
+                            <constraint firstItem="1dW-NF-115" firstAttribute="width" secondItem="860-Xd-764" secondAttribute="width" id="DN1-iv-51z"/>
+                            <constraint firstItem="ljL-xe-0P8" firstAttribute="trailing" secondItem="CsI-4y-oOg" secondAttribute="trailing" id="G6G-QQ-E5Q"/>
+                            <constraint firstItem="CsI-4y-oOg" firstAttribute="centerX" secondItem="860-Xd-764" secondAttribute="centerX" constant="-47" id="LuV-AK-men"/>
+                            <constraint firstItem="ljL-xe-0P8" firstAttribute="top" secondItem="W8O-5Q-RNh" secondAttribute="bottom" constant="70" id="OTE-eR-60K"/>
+                            <constraint firstItem="hal-j8-yMV" firstAttribute="centerX" secondItem="860-Xd-764" secondAttribute="centerX" constant="38" id="Phj-75-8wy"/>
+                            <constraint firstItem="ljL-xe-0P8" firstAttribute="centerX" secondItem="1dW-NF-115" secondAttribute="centerX" id="WT1-op-sLo"/>
+                            <constraint firstItem="1dW-NF-115" firstAttribute="centerX" secondItem="860-Xd-764" secondAttribute="centerX" id="Wyd-eP-yeT"/>
+                            <constraint firstItem="ljL-xe-0P8" firstAttribute="centerX" secondItem="IOZ-yg-WuQ" secondAttribute="centerX" id="XPE-lt-ZpC"/>
+                            <constraint firstItem="CsI-4y-oOg" firstAttribute="top" secondItem="ljL-xe-0P8" secondAttribute="bottom" constant="70" id="tg5-dt-zhZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="MAINPAGE" id="fJb-yo-wbv">
+                        <barButtonItem key="backBarButtonItem" title="back" id="MYk-Ky-95v"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xgg-rI-kJq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="964" y="-274.81259370314842"/>
+        </scene>
+        <!--Owner-->
+        <scene sceneID="hZi-rx-f2F">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Owner" id="DGU-84-ODS" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n7B-h0-tyF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1722" y="-436"/>
+        </scene>
+        <!--Driver-->
+        <scene sceneID="9Z9-Od-Iwz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Driver" id="k5u-Ja-cm1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zkt-Ul-nAw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1724" y="-130"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="main_background" width="385" height="697"/>
+        <image name="mainage_driver" width="230" height="148"/>
+        <image name="mainage_owner" width="230" height="148"/>
+        <image name="mainpage_justride" width="124" height="19"/>
+        <image name="select" width="123" height="27"/>
+    </resources>
+</document>
